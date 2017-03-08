@@ -14,13 +14,13 @@
 	<?php 
 		include 'class/BD.php'; //trae las funciones de la pagina BD.php
 		$nuevo_obj=new BD();	// llama la clase BD
-			echo $nuevo_obj->estilos("../clases/ejer1/bootstrap"); // trae la funcion estilos de la clase
+			echo $nuevo_obj->estilos("bootstrap"); // esta es la funcion de los diferentes estilos para que esta funcion funcione hay que tener boostrap.
 	?>
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<?php  echo $nuevo_obj->encabezado("Hola....."); ?> 
+			<?php  echo $nuevo_obj->encabezado("Mi Clinica Veterinaria"); ?> 
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-md-3 col-lg-3 ">
