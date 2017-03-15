@@ -13,7 +13,7 @@
 	<script src="js/angular.min.js"></script>
 	<meta charset="utf-8">
 	<?php 
-		include 'class/BD.php'; //trae las funciones de la pagina BD.php
+		include 'BD.php'; //trae las funciones de la pagina BD.php
 		$nuevo_obj=new BD();	// llama la clase BD
 			echo $nuevo_obj->estilos("bootstrap"); // trae la funcion estilos de la clase
 	?>
